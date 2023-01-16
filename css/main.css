@@ -3596,6 +3596,10 @@ h1, h2, h3, h4, h5, h6 {
 .about-image img {
   width: 100%;
 }
+.about-image.custom-about{
+   width: 100%;
+   height: 34em;
+}
 
 .app-content {
   padding-left: 40px;
@@ -5230,7 +5234,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   color: white;
 }
-
+.masthead__content .masthead__title.custom__head{
+  font-size: 50px;
+}
 @media (max-width: 991px) {
   .masthead.-type-1 .masthead__title {
     font-size: 50px;
@@ -13535,6 +13541,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: -15px;
   margin-bottom: -15px;
 }
+.y-gap-5 {
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
+
 
 .y-gap-30 > * {
   padding-top: 15px;
@@ -15722,4 +15733,11 @@ table.table td {
   color: var(--color-purple-1) !important;
   border-radius: 100%;
   background: white;
+}
+
+
+/*Override CSS Values*/
+.masthead.-type-1 .container {
+  max-width: 1240px;
+      padding: 0 15px;
 }

@@ -389,6 +389,8 @@ function testimonialsSlider2() {
       prevEl: '.js-prev',
       nextEl: '.js-next',
     },
+    
+
     pagination: {
       el: '.js-pagination',
       bulletClass: 'pagination__item',
